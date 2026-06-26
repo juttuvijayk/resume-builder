@@ -39,7 +39,7 @@ File a [bug report](https://github.com/juttuvijayk/resume-builder/issues) or [fe
 
 ## Core Contributors
 
-<a href="https://github.com/juttuvijayk"><img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&h=150&q=80" alt="juttuvijayk" height="75px" width="75px" style="border-radius: 50%;" /></a>
+<a href="https://github.com/juttuvijayk"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT665A_lZqB1JdFULi5n4Oh_AbIURXr-ZOlQCdJ2GHjLg&s=10" alt="juttuvijayk" height="75px" width="75px" style="border-radius: 50%;" /></a>
 
 ## License
 
