@@ -24,7 +24,7 @@ export const TEMPLATE_REGISTRY: Record<string, TemplateRegistryEntry> = {
   modern: {
     id: 'modern',
     name: 'Modern Resume',
-    thumbnail: '/templates/modern.png',
+    thumbnail: '/templates/professional.png',
     sectionLayout: {
       regionKeys: [REGION_IDS.left, REGION_IDS.right],
       defaults: {
@@ -58,7 +58,7 @@ export const TEMPLATE_REGISTRY: Record<string, TemplateRegistryEntry> = {
   professional: {
     id: 'professional',
     name: 'Professional Resume',
-    thumbnail: '/templates/professional.png',
+    thumbnail: '/templates/modern.png',
     sectionLayout: {
       regionKeys: [REGION_IDS.left, REGION_IDS.right],
       defaults: {
