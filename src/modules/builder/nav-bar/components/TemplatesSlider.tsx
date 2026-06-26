@@ -7,6 +7,7 @@ import { AVAILABLE_TEMPLATES } from '@/helpers/constants';
 import { Global } from '@emotion/react';
 import Image from 'next/image';
 import { useTemplates } from '@/stores/useTemplate';
+import { useThemes } from '@/stores/themes';
 
 const TILE_W = 170;
 const TILE_H = 240;
@@ -102,13 +103,20 @@ export const TemplateSlide = ({
   thumbnail: string;
   onChangeTemplate: (id: string) => void;
 }) => {
+  const activeTheme = useThemes((state) => state.selectedTheme);
+
   return (
     <li className="splide__slide flex justify-center">
       <div
         className={`h-[255px] w-[180px] rounded border hover:cursor-pointer overflow-hidden relative ${
-          isActive ? 'border-resume-800' : 'border-resume-200'
+          isActive ? '' : 'border-resume-200'
         }`}
-        style={{ width: TILE_W, height: TILE_H }}
+        style={{
+          width: TILE_W,
+          height: TILE_H,
+          borderColor: isActive ? activeTheme.highlighterColor : undefined,
+          borderWidth: isActive ? '3px' : '1px',
+        }}
         onClick={() => {
           onChangeTemplate(id);
         }}
