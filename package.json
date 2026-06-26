@@ -2,6 +2,7 @@
   "name": "resume-builder",
   "version": "2.3.0",
   "private": true,
+  "homepage": "https://resume-builder-gamma-ten-74.vercel.app/",
   "author": "J VIJAYKUMAR",
   "scripts": {
     "dev": "next dev",

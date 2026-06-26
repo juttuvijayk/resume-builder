@@ -4,6 +4,8 @@
 
 ### Free and open source, fully customizable professional single page resume builder
 
+**Live Demo:** [https://resume-builder-gamma-ten-74.vercel.app/](https://resume-builder-gamma-ten-74.vercel.app/)
+
 [![](https://img.shields.io/github/stars/juttuvijayk/resume-builder?style=for-the-badge)](#stars)
 [![](https://img.shields.io/github/forks/juttuvijayk/resume-builder?style=for-the-badge)](#forks)
 
