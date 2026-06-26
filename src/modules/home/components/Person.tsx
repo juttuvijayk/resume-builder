@@ -4,7 +4,7 @@ const persons = [
   {
     name: 'J VIJAYKUMAR',
     role: 'Project Creator & Lead Developer',
-    avatar: '/userimg.png',
+    avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT665A_lZqB1JdFULi5n4Oh_AbIURXr-ZOlQCdJ2GHjLg&s=10',
     github: 'https://github.com/juttuvijayk',
     linkedin: 'https://www.linkedin.com/in/juttuvijaykumar',
   },
