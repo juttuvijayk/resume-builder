@@ -35,9 +35,6 @@ const HomeLayout = () => {
             </Link>
           </NavBarActions>
           <NavBarActions>
-            <Link href="#contribute" passHref={true} className="max-md:hidden">
-              <StyledButton variant="text" style={{ color: '#ffffff' }}>Contribute</StyledButton>
-            </Link>
             <Link href="#about-us" passHref={true}>
               <StyledButton variant="text" style={{ color: '#ffffff' }}>About us</StyledButton>
             </Link>
@@ -119,50 +116,6 @@ const HomeLayout = () => {
         </div>
       </motion.div>
 
-      <div className="bg-zinc-950/40 border border-zinc-800/80 my-32 rounded-2xl mx-6 md:mx-40 xl:mx-60">
-        <div
-          id="contribute"
-          className="py-12 px-6"
-          style={{ fontFamily: "'Roboto Slab', serif" }}
-        >
-          <div className="grid grid-cols-12 items-center text-center">
-            <div className="col-span-12 lg:col-span-4 mb-4 lg:mb-0 flex flex-col items-center gap-2">
-              <Image src={'/icons/palette.svg'} alt="palette" height="48" width="48" className="invert brightness-200" />
-              <p className="text-zinc-200 text-xl mt-2">
-                Do you want to make your own <strong>template?</strong>
-              </p>
-            </div>
-            <div className="col-span-12 lg:col-span-1 mb-4 lg:mb-0 text-zinc-400 text-4xl">
-              <p>+</p>
-            </div>
-            <div className="col-span-12 lg:col-span-2 flex flex-col items-center gap-2">
-              <Image src={'/icons/terminal.svg'} alt="terminal" height="48" width="48" className="invert brightness-200" />
-              <p className="text-zinc-200 text-xl mt-2">
-                Do you write <strong>React</strong> code?
-              </p>
-            </div>
-            <div className="invisible lg:visible lg:col-span-2 text-zinc-400 text-4xl mx-6">
-              <p>=</p>
-            </div>
-            <div className="col-span-12 lg:col-span-3 mx-auto flex flex-col items-center gap-2">
-              <div className="mb-6">
-                <Image src={'/icons/wave.svg'} alt="wave" height="48" width="48" className="invert brightness-200" />
-              </div>
-              <div>
-                <a
-                  href="https://github.com/juttuvijayk/resume-builder"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Button variant="contained" style={{ backgroundColor: '#ffffff', color: '#000000', fontWeight: 'bold' }} className="mt-2 lg:mt-5 mb-3">
-                    CONTRIBUTE
-                  </Button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
       <div
         id="about-us"
